@@ -154,6 +154,7 @@ h1 {
     align-items: center;
     flex-shrink: 1;
     overflow-y: auto;
+    margin-top: 6vh;
 }
 
 #unlocks-container {
@@ -252,7 +253,7 @@ h1 {
     justify-content: center;
     align-items: center;
     margin-top: auto;
-    margin-bottom: 6px;
+    margin-bottom: 16px;
 }
 
 .selection-header {
@@ -456,5 +457,17 @@ button.lb-replay:focus-visible { outline:2px solid #2a682c; outline-offset:2px; 
     }
     p {
         font-size: 1.5em;
+    }
+}
+
+@media (max-width: 768px) {
+    #start-screen {
+        padding-top: 8vh;
+    }
+    #start-screen-content {
+        margin-top: 10vh;
+    }
+    #quick-choices {
+        margin-bottom: 24px;
     }
 }
